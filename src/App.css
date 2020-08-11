@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+}
+
+body{
+	background-color: #f5f6fa;
+}
+
+.app{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px;
+}
+
+
+.app_left{
+	flex: 0.8;
+}
+
+.app_right{
+	max-width: 338px;
+	max-height: 720px;
+	min-width: 300px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.graph_title{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-size: 1.3rem;
+}
+
+.app_header{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.app_title{
+	display: flex;
+	flex-direction: column;
+	margin-top: auto;
+	margin-bottom: auto;
+	border: 3px groove black;
+	padding: 10px;
+	text-transform: uppercase;
+	color: rgb(238, 7, 53);
+	font-size: calc(5px + 1.1vw);
+	margin-top: -3px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.app_dropdown{
+	justify-content: center;
+}
+
+.country_option > div{
+	display: flex;
+}
+
+.country_flag{
+	margin-left: 5px;
+	width: 30px;
+	padding: 0;
+}
+
+.statistics{
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.no_data{
+	color: red;
+	font-size: 2rem;
+}
+
+@media (max-width: 900px){
+	.app{
+		flex-direction: column;
+		min-width: 600px;
+	}
+	.app_right{
+		max-width: 900px;
+	}
+}

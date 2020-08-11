@@ -1,0 +1,24 @@
+.card_info{
+    min-width: 200px;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.box-red{
+    border-top: 10px solid red;
+}
+
+.box-green{
+    border-top: 10px solid greenyellow;
+}
+
+.box_increment{
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.box_total{
+    padding-top: 8px;
+}
